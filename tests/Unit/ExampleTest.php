@@ -12,7 +12,7 @@ class ExampleTest extends \Codeception\Test\Unit
     // tests
     public function testSomeFeature(): void
     {
-        /** @phpstan-ignore method.alreadyNarrowedType */
+        /** @phpstan-ignore-next-line method.alreadyNarrowedType */
         self::assertTrue(true);
     }
 }
