@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/WebProject-xyz/php-package-template/compare/1.0.0...1.0.1) (2026-07-17)
+
+### Bug Fixes
+
+* **ci:** dropped php 8.3 ([d450fef](https://github.com/WebProject-xyz/php-package-template/commit/d450fefe39fd05996137b4ab23753ccead570137))
+* **deps:** update and bump deps ([f838bea](https://github.com/WebProject-xyz/php-package-template/commit/f838beaa910930d99cf684fc3a581bff00752feb))
+* **php:** update workflow version ([a2834da](https://github.com/WebProject-xyz/php-package-template/commit/a2834dad84bf7a730e7f867a1d1a6f2ab907aba4))
+* **php:** update workflow version ([9f778cf](https://github.com/WebProject-xyz/php-package-template/commit/9f778cfbbefd550288da25fc89ba764856064bc7))
+
 ## 1.0.0 (2026-03-11)
 
 ### Features
