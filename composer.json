@@ -12,16 +12,16 @@
   ],
   "homepage": "https://www.webproject.xyz",
   "require": {
-    "php": "~8.4.0 || ~8.5.0"
+    "php": "~8.5.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
     "codeception/codeception": "^5.3.5",
     "codeception/module-asserts": "^3.3.0",
-    "friendsofphp/php-cs-fixer": "^3.95.1",
-    "phpro/grumphp": "^2.20.0",
-    "phpstan/phpstan": "^2.1.51",
-    "webproject-xyz/codeception-module-ai-reporter": "^1.1.1"
+    "friendsofphp/php-cs-fixer": "^3.95.15",
+    "phpro/grumphp": "^2.22.0",
+    "phpstan/phpstan": "^2.2.5",
+    "webproject-xyz/codeception-module-ai-reporter": "^1.2.1"
   },
   "autoload": {
     "psr-4": {
@@ -41,7 +41,7 @@
     },
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.4.0"
+      "php": "8.5.0"
     },
     "sort-packages": true
   },
