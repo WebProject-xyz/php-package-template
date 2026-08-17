@@ -21,7 +21,7 @@
     "friendsofphp/php-cs-fixer": "^3.95.15",
     "phpro/grumphp": "^2.22.0",
     "phpstan/phpstan": "^2.2.5",
-    "webproject-xyz/codeception-module-ai-reporter": "^1.2.1"
+    "webproject-xyz/codeception-module-ai-reporter": "^2.0.0"
   },
   "autoload": {
     "psr-4": {
