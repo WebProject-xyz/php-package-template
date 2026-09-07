@@ -15,13 +15,14 @@
     "php": "~8.5.0"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-latest",
     "codeception/codeception": "^5.3.5",
     "codeception/module-asserts": "^3.3.0",
-    "friendsofphp/php-cs-fixer": "^3.95.15",
-    "phpro/grumphp": "^2.22.0",
-    "phpstan/phpstan": "^2.2.5",
-    "webproject-xyz/codeception-module-ai-reporter": "^2.0.0"
+    "friendsofphp/php-cs-fixer": "^3.95.24",
+    "phpro/grumphp": "^2.23.0",
+    "phpstan/phpstan": "^2.2.13",
+    "roave/security-advisories": "dev-latest",
+    "webproject-xyz/codeception-module-ai-reporter": "^2.0.1",
+    "webproject-xyz/php-cs-fixer-config": "^1.1"
   },
   "autoload": {
     "psr-4": {
@@ -48,15 +49,15 @@
   "scripts": {
     "cs:check": "XDEBUG_MODE=off php-cs-fixer fix --allow-risky=yes --dry-run --diff --show-progress=dots",
     "cs:fix": "XDEBUG_MODE=off php-cs-fixer fix --show-progress=none --allow-risky=yes",
-    "stan": "XDEBUG_MODE=off phpstan analyse --no-progress --no-ansi --memory-limit=-1",
-    "test": "XDEBUG_MODE=off codecept run --report",
-    "test:coverage": "XDEBUG_MODE=coverage codecept run --coverage --coverage-xml=coverage.xml --xml  --report",
-    "test:build": "XDEBUG_MODE=off codecept build",
     "qa": [
       "@test:build",
       "@cs:fix",
       "@test",
       "@stan"
-    ]
+    ],
+    "stan": "XDEBUG_MODE=off phpstan analyse --no-progress --no-ansi --memory-limit=-1",
+    "test": "XDEBUG_MODE=off codecept run --report",
+    "test:build": "XDEBUG_MODE=off codecept build",
+    "test:coverage": "XDEBUG_MODE=coverage codecept run --coverage --coverage-xml=coverage.xml --xml  --report"
   }
 }
