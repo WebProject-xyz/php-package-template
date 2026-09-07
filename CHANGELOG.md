@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/WebProject-xyz/php-package-template/compare/1.0.2...1.0.3) (2026-09-07)
+
+### Bug Fixes
+
+* **docs:** update template documentation and configuration ([e4b52ed](https://github.com/WebProject-xyz/php-package-template/commit/e4b52edc6cbbdb13ffa6b2dc1ecc0fc4a4dcb3b3))
+
 ## [1.0.2](https://github.com/WebProject-xyz/php-package-template/compare/1.0.1...1.0.2) (2026-09-04)
 
 ### Bug Fixes
